@@ -25,10 +25,11 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.dev2ls.com">
     <meta property="og:image" content="https://www.dev2ls.com/assets/images/og-image.jpg">
-    
+
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="./assets/images/favicon/favicon.png">
+
+
     
     <!-- Preload des ressources critiques -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" as="style">
