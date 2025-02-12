@@ -7,7 +7,22 @@ use PHPMailer\PHPMailer\Exception;
 
 require 'vendor/autoload.php';
 
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Vérification du reCAPTCHA
+    $recaptcha_secret = $_ENV['RECAPTCHA_SECRET_KEY'];
+    $response = $_POST['g-recaptcha-response'];
+    $verify = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$recaptcha_secret}&response={$response}");
+    $captcha_success = json_decode($verify);
+
+    if (!$captcha_success->success) {
+        http_response_code(400);
+        echo json_encode(['status' => 'error', 'message' => 'Veuillez valider le captcha']);
+        exit;
+    }
+
     // Protection CSRF
     if (!isset($_POST['csrf_token']) || !isset($_SESSION['csrf_token']) || 
         $_POST['csrf_token'] !== $_SESSION['csrf_token']) {
@@ -46,8 +61,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'dev2ls13820@gmail.com'; // Remplacez par votre email Gmail
-        $mail->Password   = 'bxghnysnchyozzqs'; // Remplacez par votre mot de passe d'application
+        $mail->Username = $_ENV['SMTP_USERNAME'];
+        $mail->Password = $_ENV['SMTP_PASSWORD'];
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
         $mail->CharSet    = 'UTF-8';

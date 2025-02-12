@@ -12,17 +12,29 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    // Fonction pour afficher les messages
+    function showMessage(message, isError = false) {
+        let messageDiv = document.querySelector('.form-message');
+        if (!messageDiv) {
+            messageDiv = document.createElement('div');
+            messageDiv.className = 'form-message';
+            form.appendChild(messageDiv);
+        }
+        messageDiv.textContent = message;
+        messageDiv.style.color = isError ? '#ff4444' : 'var(--neon-primary)';
+    }
+
     // Obtenir le token initial au chargement
     getCSRFToken();
 
     form.addEventListener('submit', async function(e) {
         e.preventDefault();
         
-        let messageDiv = document.querySelector('.form-message');
-        if (!messageDiv) {
-            messageDiv = document.createElement('div');
-            messageDiv.className = 'form-message';
-            form.appendChild(messageDiv);
+        // Vérification du captcha
+        const captchaResponse = grecaptcha.getResponse();
+        if (!captchaResponse) {
+            showMessage('Veuillez valider le captcha', true);
+            return;
         }
 
         try {
@@ -35,21 +47,18 @@ document.addEventListener('DOMContentLoaded', function() {
             const data = await response.json();
             
             if (data.status === 'success') {
-                messageDiv.textContent = data.message;
-                messageDiv.style.color = 'var(--neon-primary)';
+                showMessage(data.message);
                 form.reset();
-                // Obtenir un nouveau token après un envoi réussi
-                getCSRFToken();
+                grecaptcha.reset(); // Réinitialiser le captcha
+                getCSRFToken(); // Obtenir un nouveau token
             } else {
-                messageDiv.textContent = data.message;
-                messageDiv.style.color = '#ff4444';
-                // Renouveler le token en cas d'erreur
+                showMessage(data.message, true);
+                grecaptcha.reset(); // Réinitialiser le captcha en cas d'erreur
                 getCSRFToken();
             }
         } catch (error) {
-            messageDiv.textContent = "Une erreur s'est produite. Veuillez réessayer.";
-            messageDiv.style.color = '#ff4444';
-            // Renouveler le token en cas d'erreur
+            showMessage("Une erreur s'est produite. Veuillez réessayer.", true);
+            grecaptcha.reset();
             getCSRFToken();
         }
     });

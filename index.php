@@ -1,3 +1,11 @@
+<?php
+require 'vendor/autoload.php';
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
+$recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -30,6 +38,9 @@
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Script captcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <!-- Schema.org markup -->
     <script type="application/ld+json">
@@ -189,6 +200,10 @@
                     ></textarea>
                 </div>
         
+                <div class="form-group">
+                  <div class="g-recaptcha" data-sitekey="<?php echo $recaptchaSiteKey; ?>"></div>
+                </div>
+
                 <button type="submit" class="cta-button">Envoyer →</button>
             </form>
         </section>
