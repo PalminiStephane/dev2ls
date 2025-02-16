@@ -314,8 +314,8 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
         <div class="footer-legal">
             <p>&copy; 2024 Dev2ls - Tous droits réservés</p>
             <div class="footer-links">
-                <a href="/mentions-legales">Mentions légales</a>
-                <a href="/politique-confidentialite">Politique de confidentialité</a>
+                <a href="./mentions-legales.php">Mentions légales</a>
+                <a href="./politique-confidentialite.php">Politique de confidentialité</a>
             </div>
         </div>
     </div>
