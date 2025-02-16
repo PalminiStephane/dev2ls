@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /wp-content/cache/
+Disallow: /search/
+Disallow: *?s=
+Disallow: /private/
+Disallow: /error_log
+Disallow: /error.log
+Disallow: /.env
+Disallow: /composer.json
+Disallow: /composer.lock
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /.git/
+Disallow: /.idea/
+Disallow: /*.sql$
+Disallow: /*.log$
+
+# Add Sitemap
+Sitemap: https://www.dev2ls.fr/sitemap.xml
+
+# Crawl-delay: 10
