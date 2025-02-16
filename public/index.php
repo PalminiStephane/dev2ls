@@ -1,11 +1,15 @@
 <?php
-require 'vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+require_once dirname(__DIR__) . '/vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
 $dotenv->load();
 
 $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
 ?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -23,11 +27,11 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
     <meta property="og:title" content="Dev2ls | Solutions Web & IA Innovantes">
     <meta property="og:description" content="Expertise en développement web et solutions IA pour propulser votre entreprise vers l'avenir.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.dev2ls.com">
-    <meta property="og:image" content="https://www.dev2ls.com/assets/images/og-image.jpg">
+    <meta property="og:url" content="https://www.dev2ls.fr">
+    <meta property="og:image" content="https://www.dev2ls.fr/assets/images/og-image.jpg">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="./assets/images/favicon/favicon.png">
+    <link rel="icon" href="data:,">
 
 
     
@@ -55,7 +59,7 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
         "addressLocality": "Marseille",
         "addressCountry": "FR"
       },
-      "url": "https://www.dev2ls.com",
+      "url": "https://www.dev2ls.fr",
       "email": "dev2ls13820@gmail.com",
       "serviceType": ["Développement Web", "Intelligence Artificielle", "Web 3.0"]
     }

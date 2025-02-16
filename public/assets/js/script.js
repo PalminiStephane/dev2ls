@@ -13,10 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
               }
           });
       });
-
       images.forEach(img => imageObserver.observe(img));
   }
-
+  
   // Initialize AOS with performance options
   AOS.init({
       duration: 1000,
@@ -28,6 +27,12 @@ document.addEventListener('DOMContentLoaded', function() {
 // Optimized particle creation
 function createParticles() {
   const particles = document.getElementById('particles');
+  
+  if (!particles) {
+      console.warn("L'élément 'particles' n'a pas été trouvé.");
+      return;
+  }
+  
   const fragment = document.createDocumentFragment();
   
   for (let i = 0; i < 50; i++) {
