@@ -297,7 +297,7 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
                 <li><a href="#accueil">Accueil</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#devis">Demander un devis</a></li>
+                <li><a href="#contact">Demander un devis</a></li>
             </ul>
         </div>
 
