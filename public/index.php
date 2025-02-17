@@ -136,37 +136,37 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
         
                 <article class="service-card" data-aos="fade-up" data-aos-delay="300">
                     <h3>Web 3.0</h3>
-                    <p>Applications décentralisées et expériences web nouvelle génération.</p>
+                    <p>Développement d'applications décentralisées et blockchain innovantes. Une approche avant-gardiste pour des expériences web nouvelle génération et sécurisées.</p>
                 </article>
-        
+
                 <article class="service-card" data-aos="fade-up" data-aos-delay="400">
                     <h3>IA Avancée</h3>
-                    <p>Solutions d'intelligence artificielle sur mesure et automatisation cognitive.</p>
+                    <p>Intégration de solutions d'intelligence artificielle personnalisées. Automatisation intelligente, chatbots avancés et analyse prédictive pour optimiser vos processus.</p>
                 </article>
-        
+
                 <article class="service-card" data-aos="fade-up" data-aos-delay="500">
                     <h3>Innovation Tech</h3>
-                    <p>Conseil en transformation digitale et intégration des dernières technologies émergentes.</p>
+                    <p>Accompagnement expert en transformation digitale. Audit, conseil et intégration des dernières technologies pour donner un avantage concurrentiel à votre entreprise.</p>
                 </article>
-        
+
                 <article class="service-card" data-aos="fade-up" data-aos-delay="600">
                     <h3>Optimisation & Référencement</h3>
-                    <p>Améliorez les performances et la visibilité de votre site (SEO, UX, vitesse de chargement).</p>
+                    <p>Amélioration des performances techniques et de la visibilité en ligne. Optimisation SEO, expérience utilisateur et vitesse de chargement pour un impact maximal.</p>
                 </article>
 
                 <article class="service-card" data-aos="fade-up" data-aos-delay="700">
                     <h3>Web Design</h3>
-                    <p>Conception graphique et ergonomique de votre site web pour une expérience utilisateur optimale.</p>
+                    <p>Création d'interfaces modernes et intuitives. Design graphique personnalisé, ergonomie optimale et expérience utilisateur fluide pour captiver vos visiteurs.</p>
                 </article>
 
                 <article class="service-card" data-aos="fade-up" data-aos-delay="800">
                     <h3>Formation & Accompagnement</h3>
-                    <p>Formations personnalisées et accompagnement pour maîtriser les outils digitaux.</p>
+                    <p>Programmes de formation sur mesure aux outils digitaux. Accompagnement personnalisé et support continu pour assurer la maîtrise de vos solutions numériques.</p>
                 </article>
 
                 <article class="service-card" data-aos="fade-up" data-aos-delay="900">
                     <h3>Web Marketing</h3>
-                    <p>Stratégie digitale, campagnes publicitaires et marketing de contenu pour booster votre visibilité.</p>
+                    <p>Élaboration de stratégies digitales performantes. Campagnes publicitaires ciblées, marketing de contenu et optimisation des conversions pour maximiser votre ROI.</p>
                 </article>
             </div>
         </section>
@@ -275,6 +275,23 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
                 <a href="mailto:dev2ls13820@gmail.com">
                     <span>📧</span> dev2ls13820@gmail.com
                 </a>
+            </div>
+            <div class="footer-social">
+                <h4>Suivez-nous</h4>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/stephane-palmini" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        <span class="sr-only">LinkedIn</span>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61571050186124" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/dev2ls/" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </div>
             </div>
         </div>
 
