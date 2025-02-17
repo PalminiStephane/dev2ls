@@ -89,6 +89,21 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
       ]
     }
     </script>
+    <!-- PWA Support -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#00fff2">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Dev2ls">
+
+    <!-- Icônes pour iOS -->
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="assets/icons/icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="assets/icons/icon-128x128.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="assets/icons/icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192x192.png">
 </head>
 <body>
     <div class="background-animation" aria-hidden="true"></div>
@@ -344,5 +359,17 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" defer></script>
     <script src="./assets/js/script.js" defer></script>
     <script src="./assets/js/form-handler.js"></script>
+    <script>
+    if ('serviceWorker' in navigator) {
+    window.addEventListener('load', async () => {
+        try {
+        const registration = await navigator.serviceWorker.register('service-worker.js');
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        } catch(err) {
+        console.log('ServiceWorker registration failed: ', err);
+        }
+    });
+    }
+    </script>
 </body>
 </html>
