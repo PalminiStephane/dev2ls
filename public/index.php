@@ -391,7 +391,7 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
             <ul class="service-areas">
                 <li>Marseille et alentours</li>
                 <li>Aix-en-Provence</li>
-                <li>Ensuès-la-Redonne</li>
+                <li>Côte Bleue</li>
                 <li>Martigues</li>
                 <li>Aubagne</li>
             </ul>
