@@ -16,7 +16,7 @@
     <meta name="geo.placename" content="Marseille">
     <meta name="geo.position" content="43.296482;5.369780">
     <meta name="ICBM" content="43.296482, 5.369780">
-    <link rel="canonical" href="https://www.dev2ls.fr/politique-confidentialite.php">
+    <link rel="canonical" href="https://www.dev2ls.fr/">
     
     <!-- Open Graph / Social Media Meta Tags -->
     <meta property="og:title" content="Politique de Confidentialité | Dev2ls - Protection de vos Données">
