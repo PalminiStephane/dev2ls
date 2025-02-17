@@ -136,37 +136,37 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
         
                 <article class="service-card" data-aos="fade-up" data-aos-delay="300">
                     <h3>Web 3.0</h3>
-                    <p>Applications décentralisées et expériences web nouvelle génération.</p>
+                    <p>Développement d'applications décentralisées et blockchain innovantes. Une approche avant-gardiste pour des expériences web nouvelle génération et sécurisées.</p>
                 </article>
-        
+
                 <article class="service-card" data-aos="fade-up" data-aos-delay="400">
                     <h3>IA Avancée</h3>
-                    <p>Solutions d'intelligence artificielle sur mesure et automatisation cognitive.</p>
+                    <p>Intégration de solutions d'intelligence artificielle personnalisées. Automatisation intelligente, chatbots avancés et analyse prédictive pour optimiser vos processus.</p>
                 </article>
-        
+
                 <article class="service-card" data-aos="fade-up" data-aos-delay="500">
                     <h3>Innovation Tech</h3>
-                    <p>Conseil en transformation digitale et intégration des dernières technologies émergentes.</p>
+                    <p>Accompagnement expert en transformation digitale. Audit, conseil et intégration des dernières technologies pour donner un avantage concurrentiel à votre entreprise.</p>
                 </article>
-        
+
                 <article class="service-card" data-aos="fade-up" data-aos-delay="600">
                     <h3>Optimisation & Référencement</h3>
-                    <p>Améliorez les performances et la visibilité de votre site (SEO, UX, vitesse de chargement).</p>
+                    <p>Amélioration des performances techniques et de la visibilité en ligne. Optimisation SEO, expérience utilisateur et vitesse de chargement pour un impact maximal.</p>
                 </article>
 
                 <article class="service-card" data-aos="fade-up" data-aos-delay="700">
                     <h3>Web Design</h3>
-                    <p>Conception graphique et ergonomique de votre site web pour une expérience utilisateur optimale.</p>
+                    <p>Création d'interfaces modernes et intuitives. Design graphique personnalisé, ergonomie optimale et expérience utilisateur fluide pour captiver vos visiteurs.</p>
                 </article>
 
                 <article class="service-card" data-aos="fade-up" data-aos-delay="800">
                     <h3>Formation & Accompagnement</h3>
-                    <p>Formations personnalisées et accompagnement pour maîtriser les outils digitaux.</p>
+                    <p>Programmes de formation sur mesure aux outils digitaux. Accompagnement personnalisé et support continu pour assurer la maîtrise de vos solutions numériques.</p>
                 </article>
 
                 <article class="service-card" data-aos="fade-up" data-aos-delay="900">
                     <h3>Web Marketing</h3>
-                    <p>Stratégie digitale, campagnes publicitaires et marketing de contenu pour booster votre visibilité.</p>
+                    <p>Élaboration de stratégies digitales performantes. Campagnes publicitaires ciblées, marketing de contenu et optimisation des conversions pour maximiser votre ROI.</p>
                 </article>
             </div>
         </section>
