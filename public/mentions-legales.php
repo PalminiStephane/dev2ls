@@ -3,14 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mentions Légales | Dev2ls - Agence Web à Marseille</title>
-    <meta name="description" content="Mentions légales de Dev2ls, agence de développement web à Marseille. Informations légales, droits et responsabilités.">
+    
+    <!-- SEO Meta Tags Optimisés -->
+    <title>Mentions Légales | Dev2ls - Agence Web & IA à Marseille</title>
+    <meta name="description" content="Mentions légales de Dev2ls, agence experte en développement web à Marseille. Informations juridiques sur notre société et nos services de création web et solutions IA.">
+    <meta name="keywords" content="mentions légales Dev2ls, agence web Marseille, développement web Marseille, informations légales">
+    <meta name="author" content="Dev2ls">
     <meta name="robots" content="noindex, follow">
     
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <!-- Balises de localisation -->
+    <meta name="geo.region" content="FR-13">
+    <meta name="geo.placename" content="Marseille">
+    <meta name="geo.position" content="43.296482;5.369780">
+    <meta name="ICBM" content="43.296482, 5.369780">
+    <link rel="canonical" href="https://www.dev2ls.fr/mentions-legales.php">
     
-    <!-- Preload -->
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Mentions Légales | Dev2ls - Agence Web à Marseille">
+    <meta property="og:description" content="Mentions légales de Dev2ls, agence experte en développement web à Marseille. Informations juridiques complètes.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.dev2ls.fr/mentions-legales.php">
+    <meta property="og:image" content="https://www.dev2ls.fr/assets/icons/icon-512x512.png">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="Dev2ls">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mentions Légales | Dev2ls - Agence Web à Marseille">
+    <meta name="twitter:description" content="Mentions légales de Dev2ls, agence experte en développement web à Marseille.">
+    <meta name="twitter:image" content="https://www.dev2ls.fr/assets/icons/icon-512x512.png">
+    
+    <!-- Favicon et PWA -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#00fff2">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Dev2ls">
+
+    <!-- Preload des ressources critiques -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" as="style">
     <link rel="preload" href="./assets/css/style.css" as="style">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" as="script">
@@ -19,14 +51,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <!-- Google tag (gtag.js) -->
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Mentions Légales Dev2ls",
+      "description": "Mentions légales de Dev2ls, agence de développement web à Marseille",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dev2ls",
+        "url": "https://www.dev2ls.fr",
+        "logo": "https://www.dev2ls.fr/assets/icons/icon-512x512.png"
+      },
+      "inLanguage": "fr-FR",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Dev2ls",
+        "url": "https://www.dev2ls.fr"
+      }
+    }
+    </script>
+
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QG1NJSZ0K"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-0QG1NJSZ0K');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0QG1NJSZ0K');
     </script>
 
     <!-- Style spécifique pour les pages légales -->
@@ -35,7 +88,7 @@
             max-width: 1000px;
             margin: 0 auto;
             padding: 8rem 2rem 4rem;
-            min-height: calc(100vh - 200px); /* Ajustement pour le footer */
+            min-height: calc(100vh - 200px);
         }
 
         .legal-section {
@@ -75,7 +128,7 @@
             .legal-content {
                 padding: 6rem 1rem 2rem;
             }
-
+            
             .legal-section {
                 padding: 1.5rem;
             }

@@ -17,30 +17,43 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Meta Tags Optimisés -->
-    <title>Dev2ls | Agence Web & IA à Marseille | Développement Sur Mesure</title>
-    <meta name="description" content="Agence de développement web et solutions IA à Marseille. Expert en création de sites web, landing pages, Web 3.0 et intelligence artificielle. Devis gratuit au 06.82.49.51.32">
-    <meta name="keywords" content="développement web Marseille, agence web Marseille, création site internet, landing page, intelligence artificielle, IA, web 3.0, développeur Marseille">
+    <title>Dev2ls | Expert Création Site Web & IA à Marseille | Développement Sur Mesure</title>
+    <meta name="description" content="Agence de développement web à Marseille ✓ Expert en création de sites web & landing pages ✓ Solutions IA innovantes ✓ Web 3.0 | Devis gratuit au 06.82.49.51.32">
+    <meta name="keywords" content="développement web Marseille, agence web Marseille, création site internet Marseille, landing page Marseille, intelligence artificielle Marseille, IA Marseille, web 3.0, développeur Marseille">
     <meta name="author" content="Dev2ls">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    
+    <!-- Balises de localisation enrichies -->
     <meta name="geo.region" content="FR-13">
     <meta name="geo.placename" content="Marseille">
+    <meta name="geo.position" content="43.296482;5.369780">
+    <meta name="ICBM" content="43.296482, 5.369780">
+    <link rel="canonical" href="https://www.dev2ls.fr/">
     
     <!-- Open Graph / Social Media Meta Tags Optimisés -->
-    <meta property="og:title" content="Dev2ls | Agence Web & IA à Marseille | Création de Sites Web">
-    <meta property="og:description" content="Votre partenaire digital à Marseille : développement web, landing pages, IA et Web 3.0. Solutions innovantes et performantes pour votre entreprise.">
+    <meta property="og:title" content="Dev2ls | Expert Développement Web & IA à Marseille">
+    <meta property="og:description" content="Agence experte en création de sites web à Marseille ✓ Landing pages ✓ Solutions IA ✓ Web 3.0 | Contactez-nous au 06.82.49.51.32">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.dev2ls.fr">
-    <meta property="og:image" content="https://www.dev2ls.fr/assets/images/og-image.jpg">
+    <meta property="og:image" content="https://www.dev2ls.fr/assets/icons/icon-512x512.png">
     <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="Dev2ls">
 
-    <!-- Twitter Card -->
+    <!-- Twitter Card Enrichie -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Dev2ls | Agence Web & IA à Marseille">
-    <meta name="twitter:description" content="Solutions digitales innovantes à Marseille : développement web, IA, Web 3.0">
+    <meta name="twitter:title" content="Dev2ls | Expert Web & IA à Marseille">
+    <meta name="twitter:description" content="Agence de développement web à Marseille ✓ Expert en création de sites & solutions IA">
+    <meta name="twitter:image" content="https://www.dev2ls.fr/assets/icons/icon-512x512.png">
+    <meta name="twitter:url" content="https://www.dev2ls.fr">
     
-    <!-- Favicon -->
+    <!-- Favicon et PWA -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#00fff2">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Dev2ls">
     
     <!-- Preload des ressources critiques -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" as="style">
@@ -51,8 +64,14 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <!-- Script captcha -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Icônes PWA -->
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="assets/icons/icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="assets/icons/icon-128x128.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="assets/icons/icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192x192.png">
 
     <!-- Schema.org markup enrichi -->
     <script type="application/ld+json">
@@ -60,8 +79,8 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
       "name": "Dev2ls",
-      "description": "Agence de développement web et solutions IA à Marseille. Experts en création de sites web, landing pages et solutions digitales innovantes.",
-      "image": "https://www.dev2ls.fr/assets/images/og-image.jpg",
+      "description": "Agence experte en développement web et solutions IA à Marseille. Création de sites web professionnels, landing pages et solutions digitales innovantes sur mesure.",
+      "image": "https://www.dev2ls.fr/assets/icons/icon-512x512.png",
       "telephone": "+33682495132",
       "priceRange": "€€",
       "address": {
@@ -78,7 +97,14 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
       },
       "url": "https://www.dev2ls.fr",
       "email": "dev2ls13820@gmail.com",
-      "serviceType": ["Développement Web", "Intelligence Artificielle", "Web 3.0", "Landing Pages"],
+      "serviceType": [
+        "Création de Sites Web",
+        "Développement Landing Pages",
+        "Solutions Intelligence Artificielle",
+        "Web 3.0",
+        "SEO",
+        "Web Design"
+      ],
       "areaServed": {
         "@type": "City",
         "name": "Marseille"
@@ -86,35 +112,25 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
       "sameAs": [
         "https://www.linkedin.com/in/stephane-palmini",
         "https://www.instagram.com/dev2ls/"
-      ]
+      ],
+      "openingHours": "Mo-Fr 09:00-18:00",
+      "availableLanguage": "French"
     }
     </script>
-    <!-- PWA Support -->
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#00fff2">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Dev2ls">
 
-    <!-- Icônes pour iOS -->
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="96x96" href="assets/icons/icon-96x96.png">
-    <link rel="apple-touch-icon" sizes="128x128" href="assets/icons/icon-128x128.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="192x192" href="assets/icons/icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192x192.png">
-
-    <!-- Google tag (gtag.js) -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QG1NJSZ0K"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-0QG1NJSZ0K');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0QG1NJSZ0K');
     </script>
+
+    <!-- Script captcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
+
 <body>
     <div class="background-animation" aria-hidden="true"></div>
     <div class="particles" id="particles" aria-hidden="true"></div>
@@ -137,11 +153,14 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
     <main>
         <section class="hero" id="accueil">
             <div class="hero-content" data-aos="fade-up">
-                <h1>Agence Web & IA à Marseille | Dev2ls</h1>
-                <p>Votre partenaire digital pour des solutions web innovantes et sur mesure. Expertise en développement web, intelligence artificielle et Web 3.0.</p>
+                <h1>Agence Web & Solutions IA à Marseille | Dev2ls</h1>
+                <p>Votre partenaire digital local pour la création de sites web professionnels et solutions IA innovantes. Plus de 5 ans d'expertise au service des entreprises marseillaises et de la région PACA.</p>
                 <div class="cta-group">
-                    <a href="tel:+33682495132" class="cta-button">☎️ 06.82.49.51.32</a>
-                    <a href="#contact" class="cta-button secondary">Demander un devis gratuit</a>
+                    <a href="tel:+33682495132" class="cta-button">📞 06.82.49.51.32</a>
+                    <a href="#contact" class="cta-button secondary">Devis Gratuit à Marseille</a>
+                </div>
+                <div class="location-badge">
+                    <p>🏢 Basé à Marseille | 📍 Intervention dans toute la région PACA</p>
                 </div>
             </div>
         </section>
@@ -196,7 +215,25 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
             </div>
         </section>
 
-	<section class="why-us" data-aos="fade-up">
+        <section class="local-expertise" data-aos="fade-up">
+            <h2>Votre Expert Digital à Marseille</h2>
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <h3>🎯 Expertise Locale</h3>
+                    <p>Une compréhension approfondie du marché marseillais et des besoins spécifiques des entreprises de la région PACA.</p>
+                </div>
+                <div class="expertise-card">
+                    <h3>💼 Clients Locaux</h3>
+                    <p>Plus de 50 entreprises marseillaises nous font confiance pour leur présence digitale.</p>
+                </div>
+                <div class="expertise-card">
+                    <h3>🤝 Support de Proximité</h3>
+                    <p>Un accompagnement personnalisé avec des rendez-vous possibles sur Marseille et ses environs.</p>
+                </div>
+            </div>
+        </section>
+
+	    <section class="why-us" data-aos="fade-up">
             <h2>Pourquoi Choisir Dev2ls ?</h2>
             <div class="features-grid">
                 <div class="feature">
@@ -210,6 +247,26 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
                 <div class="feature">
                     <h3>Innovation Technologique</h3>
                     <p>Experts en IA et Web 3.0, nous intégrons les dernières technologies pour votre avantage concurrentiel.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials" data-aos="fade-up">
+            <h2>Ils Nous Font Confiance à Marseille</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="quote">"Dev2ls a développé une application innovante de tombola digitale nous permettant de vendre des tickets pour gagner des places en loge au Vélodrome. Cette solution nous aide à financer les voyages de nos adhérents. Simple d'utilisation et très efficace !"</p>
+                    <p class="author">- Pauline, Club de Judo Ensuès</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="quote">"Site vitrine élégant et professionnel qui reflète parfaitement mon activité. L'équipe a su retranscrire exactement mes besoins."</p>
+                    <p class="author">- Alex, Safride</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="quote">"Une landing page efficace qui convertit. Les résultats sont au rendez-vous avec une augmentation significative des prises de contact."</p>
+                    <p class="author">- Anaïs, Rose de Soie</p>
                 </div>
             </div>
         </section>
@@ -326,11 +383,20 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
             </ul>
         </div>
 
-        <!-- Section Localisation -->
-        <div class="footer-location">
+         <!-- Section Localisation enrichie -->
+         <div class="footer-location">
             <h4>Zone d'Intervention</h4>
-            <p>Marseille et région PACA</p>
-            <p class="footer-areas">Aix-en-Provence, Toulon, Nice, Avignon et leurs environs</p>
+            <p>🏢 Basé à Marseille</p>
+            <p>Intervention dans toute la région PACA :</p>
+            <ul class="service-areas">
+                <li>✦ Marseille et alentours</li>
+                <li>✦ Aix-en-Provence</li>
+                <li>✦ Ensuès-la-Redonne</li>
+                <li>✦ Martigues</li>
+                <li>✦ Aubagne</li>
+                <li>✦ La Ciotat</li>
+                <li>✦ Toulon</li>
+            </ul>
         </div>
 
         <!-- Section Réseaux Sociaux -->
