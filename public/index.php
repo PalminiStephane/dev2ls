@@ -17,30 +17,43 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Meta Tags Optimisés -->
-    <title>Dev2ls | Agence Web & IA à Marseille | Développement Sur Mesure</title>
-    <meta name="description" content="Agence de développement web et solutions IA à Marseille. Expert en création de sites web, landing pages, Web 3.0 et intelligence artificielle. Devis gratuit au 06.82.49.51.32">
-    <meta name="keywords" content="développement web Marseille, agence web Marseille, création site internet, landing page, intelligence artificielle, IA, web 3.0, développeur Marseille">
+    <title>Dev2ls | Expert Création Site Web & IA à Marseille | Développement Sur Mesure</title>
+    <meta name="description" content="Agence de développement web à Marseille ✓ Expert en création de sites web & landing pages ✓ Solutions IA innovantes ✓ Web 3.0 | Devis gratuit au 06.82.49.51.32">
+    <meta name="keywords" content="développement web Marseille, agence web Marseille, création site internet Marseille, landing page Marseille, intelligence artificielle Marseille, IA Marseille, web 3.0, développeur Marseille">
     <meta name="author" content="Dev2ls">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    
+    <!-- Balises de localisation enrichies -->
     <meta name="geo.region" content="FR-13">
     <meta name="geo.placename" content="Marseille">
+    <meta name="geo.position" content="43.296482;5.369780">
+    <meta name="ICBM" content="43.296482, 5.369780">
+    <link rel="canonical" href="https://www.dev2ls.fr/">
     
     <!-- Open Graph / Social Media Meta Tags Optimisés -->
-    <meta property="og:title" content="Dev2ls | Agence Web & IA à Marseille | Création de Sites Web">
-    <meta property="og:description" content="Votre partenaire digital à Marseille : développement web, landing pages, IA et Web 3.0. Solutions innovantes et performantes pour votre entreprise.">
+    <meta property="og:title" content="Dev2ls | Expert Développement Web & IA à Marseille">
+    <meta property="og:description" content="Agence experte en création de sites web à Marseille ✓ Landing pages ✓ Solutions IA ✓ Web 3.0 | Contactez-nous au 06.82.49.51.32">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.dev2ls.fr">
-    <meta property="og:image" content="https://www.dev2ls.fr/assets/images/og-image.jpg">
+    <meta property="og:image" content="https://www.dev2ls.fr/assets/icons/icon-512x512.png">
     <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="Dev2ls">
 
-    <!-- Twitter Card -->
+    <!-- Twitter Card Enrichie -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Dev2ls | Agence Web & IA à Marseille">
-    <meta name="twitter:description" content="Solutions digitales innovantes à Marseille : développement web, IA, Web 3.0">
+    <meta name="twitter:title" content="Dev2ls | Expert Web & IA à Marseille">
+    <meta name="twitter:description" content="Agence de développement web à Marseille ✓ Expert en création de sites & solutions IA">
+    <meta name="twitter:image" content="https://www.dev2ls.fr/assets/icons/icon-512x512.png">
+    <meta name="twitter:url" content="https://www.dev2ls.fr">
     
-    <!-- Favicon -->
+    <!-- Favicon et PWA -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#00fff2">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Dev2ls">
     
     <!-- Preload des ressources critiques -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" as="style">
@@ -51,8 +64,14 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <!-- Script captcha -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Icônes PWA -->
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="assets/icons/icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="assets/icons/icon-128x128.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="assets/icons/icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192x192.png">
 
     <!-- Schema.org markup enrichi -->
     <script type="application/ld+json">
@@ -60,8 +79,8 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
       "name": "Dev2ls",
-      "description": "Agence de développement web et solutions IA à Marseille. Experts en création de sites web, landing pages et solutions digitales innovantes.",
-      "image": "https://www.dev2ls.fr/assets/images/og-image.jpg",
+      "description": "Agence experte en développement web et solutions IA à Marseille. Création de sites web professionnels, landing pages et solutions digitales innovantes sur mesure.",
+      "image": "https://www.dev2ls.fr/assets/icons/icon-512x512.png",
       "telephone": "+33682495132",
       "priceRange": "€€",
       "address": {
@@ -78,7 +97,14 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
       },
       "url": "https://www.dev2ls.fr",
       "email": "dev2ls13820@gmail.com",
-      "serviceType": ["Développement Web", "Intelligence Artificielle", "Web 3.0", "Landing Pages"],
+      "serviceType": [
+        "Création de Sites Web",
+        "Développement Landing Pages",
+        "Solutions Intelligence Artificielle",
+        "Web 3.0",
+        "SEO",
+        "Web Design"
+      ],
       "areaServed": {
         "@type": "City",
         "name": "Marseille"
@@ -86,35 +112,25 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
       "sameAs": [
         "https://www.linkedin.com/in/stephane-palmini",
         "https://www.instagram.com/dev2ls/"
-      ]
+      ],
+      "openingHours": "Mo-Fr 09:00-18:00",
+      "availableLanguage": "French"
     }
     </script>
-    <!-- PWA Support -->
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#00fff2">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Dev2ls">
 
-    <!-- Icônes pour iOS -->
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="96x96" href="assets/icons/icon-96x96.png">
-    <link rel="apple-touch-icon" sizes="128x128" href="assets/icons/icon-128x128.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="192x192" href="assets/icons/icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192x192.png">
-
-    <!-- Google tag (gtag.js) -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QG1NJSZ0K"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-0QG1NJSZ0K');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0QG1NJSZ0K');
     </script>
+
+    <!-- Script captcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
+
 <body>
     <div class="background-animation" aria-hidden="true"></div>
     <div class="particles" id="particles" aria-hidden="true"></div>

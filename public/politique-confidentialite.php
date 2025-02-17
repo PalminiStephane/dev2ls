@@ -3,14 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Politique de Confidentialité | Dev2ls - Agence Web à Marseille</title>
-    <meta name="description" content="Politique de confidentialité de Dev2ls. Découvrez comment nous protégeons vos données personnelles et respectons votre vie privée.">
+    
+    <!-- SEO Meta Tags Optimisés -->
+    <title>Politique de Confidentialité | Dev2ls - Agence Web & IA à Marseille</title>
+    <meta name="description" content="Politique de confidentialité de Dev2ls, agence web à Marseille. Protection de vos données personnelles, respect du RGPD et de votre vie privée. Transparence et sécurité garanties.">
+    <meta name="keywords" content="politique confidentialité, RGPD, protection données, Dev2ls, agence web Marseille">
+    <meta name="author" content="Dev2ls">
     <meta name="robots" content="noindex, follow">
     
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <!-- Balises de localisation -->
+    <meta name="geo.region" content="FR-13">
+    <meta name="geo.placename" content="Marseille">
+    <meta name="geo.position" content="43.296482;5.369780">
+    <meta name="ICBM" content="43.296482, 5.369780">
+    <link rel="canonical" href="https://www.dev2ls.fr/politique-confidentialite.php">
     
-    <!-- Preload -->
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Politique de Confidentialité | Dev2ls - Protection de vos Données">
+    <meta property="og:description" content="Découvrez comment Dev2ls protège vos données personnelles. RGPD, sécurité et confidentialité de vos informations garanties.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.dev2ls.fr/politique-confidentialite.php">
+    <meta property="og:image" content="https://www.dev2ls.fr/assets/icons/icon-512x512.png">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="Dev2ls">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Politique de Confidentialité | Dev2ls">
+    <meta name="twitter:description" content="Protection des données et respect de votre vie privée chez Dev2ls, agence web à Marseille.">
+    <meta name="twitter:image" content="https://www.dev2ls.fr/assets/icons/icon-512x512.png">
+    
+    <!-- Favicon et PWA -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#00fff2">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Dev2ls">
+
+    <!-- Preload des ressources critiques -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" as="style">
     <link rel="preload" href="./assets/css/style.css" as="style">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" as="script">
@@ -19,14 +51,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <!-- Google tag (gtag.js) -->
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Politique de Confidentialité Dev2ls",
+      "description": "Politique de confidentialité et protection des données personnelles de Dev2ls",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dev2ls",
+        "url": "https://www.dev2ls.fr",
+        "logo": "https://www.dev2ls.fr/assets/icons/icon-512x512.png"
+      },
+      "inLanguage": "fr-FR",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Dev2ls",
+        "url": "https://www.dev2ls.fr"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Protection des données personnelles"
+      }
+    }
+    </script>
+
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QG1NJSZ0K"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-0QG1NJSZ0K');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0QG1NJSZ0K');
     </script>
 
     <!-- Style spécifique pour les pages légales -->
@@ -86,7 +143,7 @@
             .legal-content {
                 padding: 6rem 1rem 2rem;
             }
-
+            
             .legal-section {
                 padding: 1.5rem;
             }
