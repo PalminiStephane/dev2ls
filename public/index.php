@@ -84,8 +84,8 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
         "name": "Marseille"
       },
       "sameAs": [
-        "https://www.linkedin.com/company/dev2ls",
-        "https://www.instagram.com/dev2ls"
+        "https://www.linkedin.com/in/stephane-palmini",
+        "https://www.instagram.com/dev2ls/"
       ]
     }
     </script>
@@ -104,6 +104,16 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
     <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/icon-152x152.png">
     <link rel="apple-touch-icon" sizes="192x192" href="assets/icons/icon-192x192.png">
     <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192x192.png">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QG1NJSZ0K"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0QG1NJSZ0K');
+    </script>
 </head>
 <body>
     <div class="background-animation" aria-hidden="true"></div>
