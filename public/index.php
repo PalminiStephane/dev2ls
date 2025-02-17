@@ -153,11 +153,14 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
     <main>
         <section class="hero" id="accueil">
             <div class="hero-content" data-aos="fade-up">
-                <h1>Agence Web & IA à Marseille | Dev2ls</h1>
-                <p>Votre partenaire digital pour des solutions web innovantes et sur mesure. Expertise en développement web, intelligence artificielle et Web 3.0.</p>
+                <h1>Agence Web & Solutions IA à Marseille | Dev2ls</h1>
+                <p>Votre partenaire digital local pour la création de sites web professionnels et solutions IA innovantes. Plus de 5 ans d'expertise au service des entreprises marseillaises et de la région PACA.</p>
                 <div class="cta-group">
-                    <a href="tel:+33682495132" class="cta-button">☎️ 06.82.49.51.32</a>
-                    <a href="#contact" class="cta-button secondary">Demander un devis gratuit</a>
+                    <a href="tel:+33682495132" class="cta-button">📞 06.82.49.51.32</a>
+                    <a href="#contact" class="cta-button secondary">Devis Gratuit à Marseille</a>
+                </div>
+                <div class="location-badge">
+                    <p>🏢 Basé à Marseille | 📍 Intervention dans toute la région PACA</p>
                 </div>
             </div>
         </section>
@@ -212,7 +215,25 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
             </div>
         </section>
 
-	<section class="why-us" data-aos="fade-up">
+        <section class="local-expertise" data-aos="fade-up">
+            <h2>Votre Expert Digital à Marseille</h2>
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <h3>🎯 Expertise Locale</h3>
+                    <p>Une compréhension approfondie du marché marseillais et des besoins spécifiques des entreprises de la région PACA.</p>
+                </div>
+                <div class="expertise-card">
+                    <h3>💼 Clients Locaux</h3>
+                    <p>Plus de 50 entreprises marseillaises nous font confiance pour leur présence digitale.</p>
+                </div>
+                <div class="expertise-card">
+                    <h3>🤝 Support de Proximité</h3>
+                    <p>Un accompagnement personnalisé avec des rendez-vous possibles sur Marseille et ses environs.</p>
+                </div>
+            </div>
+        </section>
+
+	    <section class="why-us" data-aos="fade-up">
             <h2>Pourquoi Choisir Dev2ls ?</h2>
             <div class="features-grid">
                 <div class="feature">
@@ -226,6 +247,26 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
                 <div class="feature">
                     <h3>Innovation Technologique</h3>
                     <p>Experts en IA et Web 3.0, nous intégrons les dernières technologies pour votre avantage concurrentiel.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials" data-aos="fade-up">
+            <h2>Ils Nous Font Confiance à Marseille</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="quote">"Dev2ls a développé une application innovante de tombola digitale nous permettant de vendre des tickets pour gagner des places en loge au Vélodrome. Cette solution nous aide à financer les voyages de nos adhérents. Simple d'utilisation et très efficace !"</p>
+                    <p class="author">- Pauline, Club de Judo Ensuès</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="quote">"Site vitrine élégant et professionnel qui reflète parfaitement mon activité. L'équipe a su retranscrire exactement mes besoins."</p>
+                    <p class="author">- Alex, Safride</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="quote">"Une landing page efficace qui convertit. Les résultats sont au rendez-vous avec une augmentation significative des prises de contact."</p>
+                    <p class="author">- Anaïs, Rose de Soie</p>
                 </div>
             </div>
         </section>
@@ -342,11 +383,20 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
             </ul>
         </div>
 
-        <!-- Section Localisation -->
-        <div class="footer-location">
+         <!-- Section Localisation enrichie -->
+         <div class="footer-location">
             <h4>Zone d'Intervention</h4>
-            <p>Marseille et région PACA</p>
-            <p class="footer-areas">Aix-en-Provence, Toulon, Nice, Avignon et leurs environs</p>
+            <p>🏢 Basé à Marseille</p>
+            <p>Intervention dans toute la région PACA :</p>
+            <ul class="service-areas">
+                <li>✦ Marseille et alentours</li>
+                <li>✦ Aix-en-Provence</li>
+                <li>✦ Ensuès-la-Redonne</li>
+                <li>✦ Martigues</li>
+                <li>✦ Aubagne</li>
+                <li>✦ La Ciotat</li>
+                <li>✦ Toulon</li>
+            </ul>
         </div>
 
         <!-- Section Réseaux Sociaux -->
