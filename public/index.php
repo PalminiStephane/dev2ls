@@ -255,13 +255,13 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
             <h2>Ils Nous Font Confiance à Marseille</h2>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
-                    <p class="quote">"Dev2ls a développé une application innovante de tombola digitale nous permettant de vendre des tickets pour gagner des places en loge au Vélodrome. Cette solution nous aide à financer les voyages de nos adhérents. Simple d'utilisation et très efficace !"</p>
+                    <p class="quote">"Dev2ls a développé une application innovante de tombola digitale nous permettant de vendre des tickets pour tenter de gagner des places en loge au Vélodrome. Cette solution nous aide à financer des voyages pour nos adhérents. Simple d'utilisation et très efficace !"</p>
                     <p class="author">- Pauline, Club de Judo Ensuès</p>
                 </div>
                 
                 <div class="testimonial-card">
                     <p class="quote">"Site vitrine élégant et professionnel qui reflète parfaitement mon activité. L'équipe a su retranscrire exactement mes besoins."</p>
-                    <p class="author">- Alex, Safride</p>
+                    <p class="author">- Alexandre, Safride</p>
                 </div>
                 
                 <div class="testimonial-card">
