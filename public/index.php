@@ -216,7 +216,7 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
         </section>
 
         <section class="local-expertise" data-aos="fade-up">
-            <h2>Votre Expert Digital à Marseille</h2>
+            <h2 class="section-title">Votre Expert Digital à Marseille</h2>
             <div class="expertise-grid">
                 <div class="expertise-card">
                     <h3>🎯 Expertise Locale</h3>
@@ -237,8 +237,8 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
             <h2>Pourquoi Choisir Dev2ls ?</h2>
             <div class="features-grid">
                 <div class="feature">
-                    <h3>Expertise Locale</h3>
-                    <p>Basés à Marseille, nous comprenons les enjeux du marché local et accompagnons les entreprises de la région PACA.</p>
+                    <h3>Transparence & Engagement</h3>
+                    <p>Une communication claire sur chaque étape de votre projet et un engagement total pour atteindre vos objectifs. Devis détaillé et suivi régulier garantis.</p>
                 </div>
                 <div class="feature">
                     <h3>Solutions Sur Mesure</h3>
@@ -389,13 +389,11 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
             <p>🏢 Basé à Marseille</p>
             <p>Intervention dans toute la région PACA :</p>
             <ul class="service-areas">
-                <li>✦ Marseille et alentours</li>
-                <li>✦ Aix-en-Provence</li>
-                <li>✦ Ensuès-la-Redonne</li>
-                <li>✦ Martigues</li>
-                <li>✦ Aubagne</li>
-                <li>✦ La Ciotat</li>
-                <li>✦ Toulon</li>
+                <li>Marseille et alentours</li>
+                <li>Aix-en-Provence</li>
+                <li>Ensuès-la-Redonne</li>
+                <li>Martigues</li>
+                <li>Aubagne</li>
             </ul>
         </div>
 
