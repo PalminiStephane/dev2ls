@@ -216,7 +216,7 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
         </section>
 
         <section class="local-expertise" data-aos="fade-up">
-            <h2 class="section-title">Votre Expert Digital à Marseille</h2>
+            <h2>Votre Expert Digital à Marseille</h2>
             <div class="expertise-grid">
                 <div class="expertise-card">
                     <h3>🎯 Expertise Locale</h3>
