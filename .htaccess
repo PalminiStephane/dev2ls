@@ -8,6 +8,7 @@ RewriteCond %{HTTP_HOST} ^dev2ls\.fr [NC]
 RewriteRule ^(.*)$ https://www.dev2ls.fr/$1 [L,R=301]
 
 # Redirection HTTPS sans www à HTTPS avec www
+RewriteCond %{HTTPS} on
 RewriteCond %{HTTP_HOST} ^dev2ls\.fr [NC]
 RewriteRule ^(.*)$ https://www.dev2ls.fr/$1 [L,R=301]
 
