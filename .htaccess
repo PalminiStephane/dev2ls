@@ -2,11 +2,8 @@
 RewriteEngine On
 RewriteBase /
 
-# Redirection de HTTP à HTTPS si nécessaire
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-# Redirection de non-www à www si nécessaire
+# Redirection HTTP à HTTPS et non-www à www
+RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^dev2ls\.fr [NC]
 RewriteRule ^(.*)$ https://www.dev2ls.fr/$1 [L,R=301]
 
