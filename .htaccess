@@ -1,0 +1,35 @@
+# Activation du moteur de réécriture
+RewriteEngine On
+
+# Redirection de HTTP à HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.dev2ls.fr/$1 [L,R=301]
+
+# Redirection de non-www à www
+RewriteCond %{HTTP_HOST} ^dev2ls\.fr [NC]
+RewriteRule ^(.*)$ https://www.dev2ls.fr/$1 [L,R=301]
+
+# Éviter les doublons avec et sans trailing slash
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [L,R=301]
+
+# Sécurité PHP
+<Files "*.php">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+# Protection contre l'indexation des fichiers sensibles
+<FilesMatch "^\.htaccess|\.env">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Désactiver le listing des répertoires
+Options -Indexes
+
+# Compression GZIP
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
+</IfModule>
