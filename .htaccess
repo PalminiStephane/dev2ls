@@ -20,3 +20,5 @@ RewriteRule ^(.*)$ https://www.dev2ls.fr/$1 [L,R=301]
 
 # Désactiver le listing des répertoires
 Options -Indexes
+
+ErrorDocument 404 /404.php
