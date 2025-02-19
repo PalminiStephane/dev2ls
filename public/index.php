@@ -17,8 +17,8 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Meta Tags Optimisés -->
-    <title>Dev2ls | Expert Création Site Web & IA à Marseille | Développement Sur Mesure</title>
-    <meta name="description" content="Agence de développement web à Marseille ✓ Expert en création de sites web & landing pages ✓ Solutions IA innovantes ✓ Web 3.0 | Devis gratuit au 06.82.49.51.32">
+    <title>Dev2ls | Solutions Digitales Sur Mesure & IA Innovante à Marseille</title>
+    <meta name="description" content="Boostez votre entreprise avec nos solutions web sur mesure et intelligence artificielle innovante à Marseille. Plus de 5 ans d’expertise au service de votre transformation digitale. Devis gratuit au 06.82.49.51.32">
     <meta name="keywords" content="développement web Marseille, agence web Marseille, création site internet Marseille, landing page Marseille, intelligence artificielle Marseille, IA Marseille, web 3.0, développeur Marseille">
     <meta name="author" content="Dev2ls">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -31,8 +31,8 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
     <link rel="canonical" href="https://www.dev2ls.fr/">
     
     <!-- Open Graph / Social Media Meta Tags Optimisés -->
-    <meta property="og:title" content="Dev2ls | Expert Développement Web & IA à Marseille">
-    <meta property="og:description" content="Agence experte en création de sites web à Marseille ✓ Landing pages ✓ Solutions IA ✓ Web 3.0 | Contactez-nous au 06.82.49.51.32">
+    <meta property="og:title" content="Dev2ls | Solutions Digitales Sur Mesure & IA Innovante à Marseille">
+    <meta property="og:description" content="Boostez votre entreprise avec des solutions web et IA sur mesure. Plus de 5 ans d’expertise pour transformer vos idées en succès digital. Contactez-nous au 06.82.49.51.32">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.dev2ls.fr">
     <meta property="og:image" content="https://www.dev2ls.fr/assets/icons/icon-512x512.png">
@@ -41,8 +41,8 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
 
     <!-- Twitter Card Enrichie -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Dev2ls | Expert Web & IA à Marseille">
-    <meta name="twitter:description" content="Agence de développement web à Marseille ✓ Expert en création de sites & solutions IA">
+    <meta name="twitter:title" content="Dev2ls | Solutions Digitales Sur Mesure & IA Innovante à Marseille">
+    <meta name="twitter:description" content="Boostez votre présence en ligne avec des sites web et solutions IA personnalisés pour transformer votre business.">
     <meta name="twitter:image" content="https://www.dev2ls.fr/assets/icons/icon-512x512.png">
     <meta name="twitter:url" content="https://www.dev2ls.fr">
     
@@ -79,7 +79,7 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
       "name": "Dev2ls",
-      "description": "Agence experte en développement web et solutions IA à Marseille. Création de sites web professionnels, landing pages et solutions digitales innovantes sur mesure.",
+      "description": "Agence experte en développement web et solutions IA sur mesure à Marseille. Création de sites web professionnels, landing pages et solutions digitales innovantes pour transformer vos idées en succès.",
       "image": "https://www.dev2ls.fr/assets/icons/icon-512x512.png",
       "telephone": "+33682495132",
       "priceRange": "€€",
@@ -153,11 +153,11 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
     <main>
         <section class="hero" id="accueil">
             <div class="hero-content" data-aos="fade-up">
-                <h1>Agence Web & Solutions IA à Marseille | Dev2ls</h1>
-                <p>Votre partenaire digital local pour la création de sites web professionnels et solutions IA innovantes. Plus de 5 ans d'expertise au service des entreprises marseillaises et de la région PACA.</p>
+                <h1>Boostez votre entreprise avec des solutions Web et IA sur mesure à Marseille</h1>
+                <p>Transformez votre présence en ligne grâce à des sites web performants et des solutions d'intelligence artificielle adaptées à vos besoins. Avec plus de 5 ans d'expertise, nous propulsons votre succès digital.</p>
                 <div class="cta-group">
                     <a href="tel:+33682495132" class="cta-button">📞 06.82.49.51.32</a>
-                    <a href="#contact" class="cta-button secondary">Devis Gratuit à Marseille</a>
+                    <a href="#contact" class="cta-button secondary">Obtenez votre devis gratuit</a>
                 </div>
                 <div class="location-badge">
                     <p>🏢 Basé à Marseille | 📍 Intervention dans toute la région PACA</p>
@@ -170,47 +170,47 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
             <div class="services-grid">
                 <article class="service-card" data-aos="fade-up" data-aos-delay="100">
                     <h3>Landing Pages Performantes</h3>
-                    <p>Création de pages d'atterrissage optimisées pour la conversion. Idéal pour vos campagnes marketing et la génération de leads qualifiés.</p>
+                    <p>Attirez et convertissez vos visiteurs dès le premier clic grâce à des landing pages conçues pour maximiser votre taux de conversion.</p>
                 </article>
         
                 <article class="service-card" data-aos="fade-up" data-aos-delay="200">
                     <h3>Sites Web Professionnels</h3>
-                    <p>Développement de sites vitrines et e-commerce sur mesure. Design moderne, responsive et optimisé pour le référencement naturel.</p>
+                    <p>Présentez votre entreprise avec un site web élégant, performant et optimisé pour Google, qui captive vos clients et renforce votre crédibilité.</p>
                 </article>
         
                 <article class="service-card" data-aos="fade-up" data-aos-delay="300">
                     <h3>Web 3.0</h3>
-                    <p>Développement d'applications décentralisées et blockchain innovantes. Une approche avant-gardiste pour des expériences web nouvelle génération et sécurisées.</p>
+                    <p>Embrassez l'avenir du web avec des applications décentralisées et blockchain, garantissant sécurité et innovation pour une expérience digitale révolutionnaire.</p>
                 </article>
 
                 <article class="service-card" data-aos="fade-up" data-aos-delay="400">
                     <h3>IA Avancée</h3>
-                    <p>Intégration de solutions d'intelligence artificielle personnalisées. Automatisation intelligente, chatbots avancés et analyse prédictive pour optimiser vos processus.</p>
+                    <p>Boostez votre productivité avec des solutions IA sur mesure : chatbots intelligents, automatisation et analyse prédictive pour optimiser vos processus.</p>
                 </article>
 
                 <article class="service-card" data-aos="fade-up" data-aos-delay="500">
                     <h3>Innovation Tech</h3>
-                    <p>Accompagnement expert en transformation digitale. Audit, conseil et intégration des dernières technologies pour donner un avantage concurrentiel à votre entreprise.</p>
+                    <p>Accélérez votre transformation digitale avec notre accompagnement expert : audit, conseil et intégration des technologies de pointe pour vous démarquer.</p>
                 </article>
 
                 <article class="service-card" data-aos="fade-up" data-aos-delay="600">
                     <h3>Optimisation & Référencement</h3>
-                    <p>Amélioration des performances techniques et de la visibilité en ligne. Optimisation SEO, expérience utilisateur et vitesse de chargement pour un impact maximal.</p>
+                    <p>Augmentez votre visibilité et votre trafic grâce à une optimisation technique et SEO pointue, offrant une expérience utilisateur exceptionnelle.</p>
                 </article>
 
                 <article class="service-card" data-aos="fade-up" data-aos-delay="700">
                     <h3>Web Design</h3>
-                    <p>Création d'interfaces modernes et intuitives. Design graphique personnalisé, ergonomie optimale et expérience utilisateur fluide pour captiver vos visiteurs.</p>
+                    <p>Captivez vos visiteurs avec un design sur mesure alliant modernité et ergonomie pour une expérience utilisateur inoubliable.</p>
                 </article>
 
                 <article class="service-card" data-aos="fade-up" data-aos-delay="800">
                     <h3>Formation & Accompagnement</h3>
-                    <p>Programmes de formation sur mesure aux outils digitaux. Accompagnement personnalisé et support continu pour assurer la maîtrise de vos solutions numériques.</p>
+                    <p>Maîtrisez vos outils digitaux grâce à des formations personnalisées et un accompagnement dédié, pour tirer le meilleur parti de vos solutions web.</p>
                 </article>
 
                 <article class="service-card" data-aos="fade-up" data-aos-delay="900">
                     <h3>Web Marketing</h3>
-                    <p>Élaboration de stratégies digitales performantes. Campagnes publicitaires ciblées, marketing de contenu et optimisation des conversions pour maximiser votre ROI.</p>
+                    <p>Propulsez votre croissance avec des stratégies de web marketing ciblées, alliant publicité, contenu engageant et optimisation des conversions pour un ROI maximisé.</p>
                 </article>
             </div>
         </section>
@@ -224,35 +224,35 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
                 </div>
                 <div class="expertise-card">
                     <h3>💼 Clients Locaux</h3>
-                    <p>Plus de 50 entreprises marseillaises nous font confiance pour leur présence digitale.</p>
+                    <p>Plus de 50 entreprises marseillaises nous font confiance pour leur transformation digitale.</p>
                 </div>
                 <div class="expertise-card">
                     <h3>🤝 Support de Proximité</h3>
-                    <p>Un accompagnement personnalisé avec des rendez-vous possibles sur Marseille et ses environs.</p>
+                    <p>Un accompagnement personnalisé avec des rendez-vous sur Marseille et ses environs pour répondre à vos besoins.</p>
                 </div>
             </div>
         </section>
 
-	    <section class="why-us" data-aos="fade-up">
+        <section class="why-us" data-aos="fade-up">
             <h2>Pourquoi Choisir Dev2ls ?</h2>
             <div class="features-grid">
                 <div class="feature">
                     <h3>Transparence & Engagement</h3>
-                    <p>Une communication claire sur chaque étape de votre projet et un engagement total pour atteindre vos objectifs. Devis détaillé et suivi régulier garantis.</p>
+                    <p>Communication transparente à chaque étape, avec un devis détaillé et un suivi régulier pour garantir votre satisfaction.</p>
                 </div>
                 <div class="feature">
                     <h3>Solutions Sur Mesure</h3>
-                    <p>Chaque projet est unique. Nous développons des solutions adaptées à vos objectifs et votre budget.</p>
+                    <p>Chaque entreprise est unique. Nous créons des solutions personnalisées qui s’adaptent parfaitement à vos objectifs et à votre budget.</p>
                 </div>
                 <div class="feature">
                     <h3>Innovation Technologique</h3>
-                    <p>Experts en IA et Web 3.0, nous intégrons les dernières technologies pour votre avantage concurrentiel.</p>
+                    <p>Tirez parti des technologies de pointe. Nos experts en IA et Web 3.0 déploient des solutions innovantes pour vous démarquer.</p>
                 </div>
             </div>
         </section>
 
         <section class="testimonials" data-aos="fade-up">
-            <h2>Ils Nous Font Confiance à Marseille</h2>
+            <h2>Ils nous font confiance à Marseille</h2>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <p class="quote">"Dev2ls a développé une application innovante de tombola digitale nous permettant de vendre des tickets pour tenter de gagner des places en loge au Vélodrome. Cette solution nous aide à financer des voyages pour nos adhérents. Simple d'utilisation et très efficace !"</p>
@@ -274,7 +274,7 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
         <section class="contact" id="contact" aria-labelledby="contact-form-title">
             <form action="send_email.php" method="POST" class="contact-form" data-aos="fade-up">
               <input type="hidden" name="csrf_token" id="csrf_token">
-                <h3 id="contact-form-title">Say Hello!</h3>
+                <h3 id="contact-form-title">Contactez-nous</h3>
                 
                 <div class="form-group">
                     <label for="name">Nom</label>
