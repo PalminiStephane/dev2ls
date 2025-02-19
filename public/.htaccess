@@ -1,0 +1,6 @@
+# Activation du moteur de réécriture
+RewriteEngine On
+RewriteBase /perso/dev2ls/public/
+
+# Page d'erreur 404
+ErrorDocument 404 /perso/dev2ls/public/404.php
