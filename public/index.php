@@ -48,7 +48,7 @@ $recaptchaSiteKey = $_ENV['RECAPTCHA_SITE_KEY'];
     <meta name="twitter:url" content="https://www.dev2ls.fr">
     
     <!-- Favicon et PWA -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192x192.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#00fff2">
