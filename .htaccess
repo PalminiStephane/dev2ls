@@ -12,6 +12,9 @@ RewriteCond %{HTTPS} on
 RewriteCond %{HTTP_HOST} ^dev2ls\.fr [NC]
 RewriteRule ^(.*)$ https://www.dev2ls.fr/$1 [L,R=301]
 
+# Page d'erreur 404
+ErrorDocument 404 /404.php
+
 # Protection des fichiers sensibles
 <FilesMatch "^\.htaccess|\.env">
     Order Allow,Deny
@@ -20,6 +23,3 @@ RewriteRule ^(.*)$ https://www.dev2ls.fr/$1 [L,R=301]
 
 # Désactiver le listing des répertoires
 Options -Indexes
-
-# Page d'erreur 404
-ErrorDocument 404 /404.php
